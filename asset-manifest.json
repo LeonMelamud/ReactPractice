@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.bed7ece2.chunk.css",
-    "main.js": "/static/js/main.92ab6cc9.chunk.js",
-    "main.js.map": "/static/js/main.92ab6cc9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
-    "static/css/2.1f3deeab.chunk.css": "/static/css/2.1f3deeab.chunk.css",
-    "static/js/2.3fcb497d.chunk.js": "/static/js/2.3fcb497d.chunk.js",
-    "static/js/2.3fcb497d.chunk.js.map": "/static/js/2.3fcb497d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.449e5b3169eba22084301cf2983529ce.js": "/precache-manifest.449e5b3169eba22084301cf2983529ce.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.1f3deeab.chunk.css.map": "/static/css/2.1f3deeab.chunk.css.map",
-    "static/css/main.bed7ece2.chunk.css.map": "/static/css/main.bed7ece2.chunk.css.map",
-    "static/js/2.3fcb497d.chunk.js.LICENSE.txt": "/static/js/2.3fcb497d.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/ReactPractice/static/css/main.bed7ece2.chunk.css",
+    "main.js": "/ReactPractice/static/js/main.871e80be.chunk.js",
+    "main.js.map": "/ReactPractice/static/js/main.871e80be.chunk.js.map",
+    "runtime-main.js": "/ReactPractice/static/js/runtime-main.608a6a0d.js",
+    "runtime-main.js.map": "/ReactPractice/static/js/runtime-main.608a6a0d.js.map",
+    "static/css/2.bb6c3006.chunk.css": "/ReactPractice/static/css/2.bb6c3006.chunk.css",
+    "static/js/2.3fcb497d.chunk.js": "/ReactPractice/static/js/2.3fcb497d.chunk.js",
+    "static/js/2.3fcb497d.chunk.js.map": "/ReactPractice/static/js/2.3fcb497d.chunk.js.map",
+    "index.html": "/ReactPractice/index.html",
+    "precache-manifest.ccc631da17ae2da4f8a89788ad706799.js": "/ReactPractice/precache-manifest.ccc631da17ae2da4f8a89788ad706799.js",
+    "service-worker.js": "/ReactPractice/service-worker.js",
+    "static/css/2.bb6c3006.chunk.css.map": "/ReactPractice/static/css/2.bb6c3006.chunk.css.map",
+    "static/css/main.bed7ece2.chunk.css.map": "/ReactPractice/static/css/main.bed7ece2.chunk.css.map",
+    "static/js/2.3fcb497d.chunk.js.LICENSE.txt": "/ReactPractice/static/js/2.3fcb497d.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/ReactPractice/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/ReactPractice/static/media/fa-solid-900.ec763292.svg",
+    "static/media/logo.svg": "/ReactPractice/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f8c5b4be.js",
-    "static/css/2.1f3deeab.chunk.css",
+    "static/js/runtime-main.608a6a0d.js",
+    "static/css/2.bb6c3006.chunk.css",
     "static/js/2.3fcb497d.chunk.js",
     "static/css/main.bed7ece2.chunk.css",
-    "static/js/main.92ab6cc9.chunk.js"
+    "static/js/main.871e80be.chunk.js"
   ]
 }
