@@ -39,7 +39,7 @@ function Print10(){
                 <tr>
                         <td>1</td>
                         <td>Inigo and Greetings</td>
-                        <td><span><Inigo />, <Greetings />  </span></td>
+                        <td><span><Inigo />, <Greetings name='Leon' />  </span></td>
                         <td>bind components</td>
                 </tr>
                 <tr>

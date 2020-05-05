@@ -7,7 +7,7 @@ function DadJoke(){
     useEffect(getJoke,[]);
 
     function getJoke(){
-        getDadJoke().then((joke) =>{setJoke(joke);});
+        getDadJoke().then((joke) =>{setJoke(joke);},()=>{setJoke('Sorry... Error :(')});
 
     }
 

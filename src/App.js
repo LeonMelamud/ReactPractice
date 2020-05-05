@@ -25,7 +25,8 @@ function App() {
   */}   <ErrorBoundary>
           <TableViewer/>
       </ErrorBoundary>
-      <img src={logo} className="App-logo" alt="logo" />
+      {//<img src={logo} className="App-logo" alt="logo" />
+      }
   </div>
   );
 }
