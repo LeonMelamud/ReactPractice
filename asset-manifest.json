@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/leon-react-learning/static/css/main.bed7ece2.chunk.css",
+    "main.js": "/leon-react-learning/static/js/main.97053dc8.chunk.js",
+    "main.js.map": "/leon-react-learning/static/js/main.97053dc8.chunk.js.map",
+    "runtime-main.js": "/leon-react-learning/static/js/runtime-main.6f66750a.js",
+    "runtime-main.js.map": "/leon-react-learning/static/js/runtime-main.6f66750a.js.map",
+    "static/css/2.04465f1c.chunk.css": "/leon-react-learning/static/css/2.04465f1c.chunk.css",
+    "static/js/2.3fcb497d.chunk.js": "/leon-react-learning/static/js/2.3fcb497d.chunk.js",
+    "static/js/2.3fcb497d.chunk.js.map": "/leon-react-learning/static/js/2.3fcb497d.chunk.js.map",
+    "index.html": "/leon-react-learning/index.html",
+    "precache-manifest.f15f554d37746daca7ee4f56df842f2c.js": "/leon-react-learning/precache-manifest.f15f554d37746daca7ee4f56df842f2c.js",
+    "service-worker.js": "/leon-react-learning/service-worker.js",
+    "static/css/2.04465f1c.chunk.css.map": "/leon-react-learning/static/css/2.04465f1c.chunk.css.map",
+    "static/css/main.bed7ece2.chunk.css.map": "/leon-react-learning/static/css/main.bed7ece2.chunk.css.map",
+    "static/js/2.3fcb497d.chunk.js.LICENSE.txt": "/leon-react-learning/static/js/2.3fcb497d.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/leon-react-learning/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/leon-react-learning/static/media/fa-solid-900.ec763292.svg",
+    "static/media/logo.svg": "/leon-react-learning/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f66750a.js",
+    "static/css/2.04465f1c.chunk.css",
+    "static/js/2.3fcb497d.chunk.js",
+    "static/css/main.bed7ece2.chunk.css",
+    "static/js/main.97053dc8.chunk.js"
+  ]
+}
