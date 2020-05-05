@@ -19,3 +19,14 @@ code {
   color: #fff;
   text-align: center;
 }
+.table-responsive {
+    display: table;
+}
+
+ul li{
+ display: inline;
+
+}
+button{
+  size : 25px;
+}

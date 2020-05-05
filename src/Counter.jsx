@@ -3,8 +3,6 @@ import './Counter.css';
 
 function Counter(props) {
     const [playNumber, setPlayNumber] = useState(props.num);
-    
-
 function upNumber() {
     setPlayNumber(playNumber + 1);
 }
