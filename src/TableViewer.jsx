@@ -1,21 +1,25 @@
 import React, { useState } from 'react';
-import TodayTime from './TodayDay';
-import Welcome from './Welcome';
-import WelcomeClass from './WelcomeClass';
-import BirthDay from './BirthDay';
-import CountDown from './CountDown';
-import Watch from './Watch';
-import InputViewer from './InputViewer';
-import MyDivContainer from './MyDivContainer';
-import Counter from './Counter';
-import CounterClass from './CounterClass';
-import RandomImage from './RandomImage';
+import TodayTime from './time/TodayDay';
+import Welcome from './welcome/Welcome';
+import WelcomeClass from './welcome/WelcomeClass';
+import BirthDay from './welcome/BirthDay';
+import CountDown from './counters/CountDown';
+import Watch from './time/Watch';
+import InputViewer from './state/InputViewer';
+import MyDivContainer from './welcome/MyDivContainer';
+import Counter from './counters/Counter';
+import CounterClass from './counters/CounterClass';
+import RandomImage from './material-ui/RandomImage';
 import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
-import WithStorage from './WithStorage'; 
-import CounterHOC from './CounterHOC';
-import MyRouter from "./MyRouter";
+import WithStorage from './HOC/WithStorage'; 
+import CounterHOC from './HOC/CounterHOC';
+import MyRouter from "./routers/MyRouter";
 import "./index.css";
-import  Container  from './Container';
+import  Container  from './Context/Container';
+import GetJoke from './serviceUse/GetJoke';
+import DadJoke from './serviceUse/DadJoke';
+
+
 
 function TableViewer() {
      const user = {
@@ -160,6 +164,22 @@ function TableViewer() {
                 <Container />
               </td>
               <td>use Context</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>GetJoke</td>
+              <td>
+                <GetJoke />
+              </td>
+              <td>use Api Service with fetch to get Chuck Norris jokes</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>DadJokes</td>
+              <td>
+                <DadJoke/>
+              </td>
+              <td>use generic Service  with Ron API</td>
             </tr>
           </MDBTableBody>
         </MDBTable>

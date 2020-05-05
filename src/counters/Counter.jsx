@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react';
-import './Counter.css';
+import "../counters/Counter.css";
 
 function Counter(props) {
     const [playNumber, setPlayNumber] = useState(props.num);
