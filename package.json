@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/leon-react-learning",
   "dependencies": {
     "@devexpress/dx-react-core": "^2.6.2",
     "@devexpress/dx-react-grid": "^2.6.2",
