@@ -87,7 +87,7 @@ function TableViewer() {
               </td>
               <td>{`send props: CountDown count={10}`}</td>
             </tr>
-            <tr>
+            <tr>  
               <td>6</td>
               <td>InputViewer</td>
               <td>
