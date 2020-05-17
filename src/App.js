@@ -6,11 +6,21 @@ import TableViewer from './TableViewer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
+import { createStore } from "redux";
+import allReducers from "./redux/reducer";
+import {Provider} from 'react-redux';
+
+
+//create store - send the reducer
+let store = createStore(
+  allReducers,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 function App() {
   return (
-    <div className="App">    
-    {/*<img src={logo} className="App-logo" alt="logo" />
+    <div className="App">
+      {/*<img src={logo} className="App-logo" alt="logo" />
            <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>  
@@ -22,12 +32,16 @@ function App() {
          >
             Learn React
         </a>
-  */}   <ErrorBoundary>
-          <TableViewer/>
+  */}{" "}
+      <ErrorBoundary>
+        <Provider store={store}>
+          <TableViewer />
+      </Provider>
       </ErrorBoundary>
-      {//<img src={logo} className="App-logo" alt="logo" />
+      {
+        //<img src={logo} className="App-logo" alt="logo" />
       }
-  </div>
+    </div>
   );
 }
 

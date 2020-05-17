@@ -18,15 +18,17 @@ import "./index.css";
 import  Container  from './Context/Container';
 import GetJoke from './serviceUse/GetJoke';
 import DadJoke from './serviceUse/DadJoke';
+import ReduxCounter from './redux/ReduxCounter';
+import LogInRedux from "./redux/LogInRedux";
 
-
-
-function TableViewer() {
+function TableViewer(props) {
      const user = {
     age: 33,
     name:'Leon'
       }
+      
   const ComposedCompnent = WithStorage(CounterHOC);
+  console.log('loop');
     return (
       <div className="table-responsive">
         <MDBTable>
@@ -87,7 +89,7 @@ function TableViewer() {
               </td>
               <td>{`send props: CountDown count={10}`}</td>
             </tr>
-            <tr>  
+            <tr>
               <td>6</td>
               <td>InputViewer</td>
               <td>
@@ -177,9 +179,25 @@ function TableViewer() {
               <td>15</td>
               <td>DadJokes</td>
               <td>
-                <DadJoke/>
+                <DadJoke />
               </td>
-              <td>use generic Service  with Ron API</td>
+              <td>use generic Service with Ron API</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>LogInRedux</td>
+              <td>
+                <LogInRedux />
+              </td>
+              <td>use redux for LogIn</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>reduxCounter</td>
+              <td>
+                <ReduxCounter />
+              </td>
+              <td>use redux for Counter</td>
             </tr>
           </MDBTableBody>
         </MDBTable>

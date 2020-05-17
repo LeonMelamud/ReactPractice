@@ -1,5 +1,6 @@
 
 export default function getDadJoke(){
+    console.log('check loop ');
     return fetch(`https://icanhazdadjoke.com`, {
             headers: {
             'Accept': 'application/json'

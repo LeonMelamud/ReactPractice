@@ -12,7 +12,7 @@ const options = { weekday: 'long', hour: 'numeric', minute:
 
 }
     Watch.propTypes = {
-      name: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+      milliseconds: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
         .isRequired,
     };
 export default Watch;
