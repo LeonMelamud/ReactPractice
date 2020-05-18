@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ReactPractice/static/css/main.bed7ece2.chunk.css",
-    "main.js": "/ReactPractice/static/js/main.871e80be.chunk.js",
-    "main.js.map": "/ReactPractice/static/js/main.871e80be.chunk.js.map",
+    "main.js": "/ReactPractice/static/js/main.33813ad9.chunk.js",
+    "main.js.map": "/ReactPractice/static/js/main.33813ad9.chunk.js.map",
     "runtime-main.js": "/ReactPractice/static/js/runtime-main.608a6a0d.js",
     "runtime-main.js.map": "/ReactPractice/static/js/runtime-main.608a6a0d.js.map",
     "static/css/2.bb6c3006.chunk.css": "/ReactPractice/static/css/2.bb6c3006.chunk.css",
-    "static/js/2.3fcb497d.chunk.js": "/ReactPractice/static/js/2.3fcb497d.chunk.js",
-    "static/js/2.3fcb497d.chunk.js.map": "/ReactPractice/static/js/2.3fcb497d.chunk.js.map",
+    "static/js/2.08ee95cf.chunk.js": "/ReactPractice/static/js/2.08ee95cf.chunk.js",
+    "static/js/2.08ee95cf.chunk.js.map": "/ReactPractice/static/js/2.08ee95cf.chunk.js.map",
     "index.html": "/ReactPractice/index.html",
-    "precache-manifest.ccc631da17ae2da4f8a89788ad706799.js": "/ReactPractice/precache-manifest.ccc631da17ae2da4f8a89788ad706799.js",
+    "precache-manifest.92e4b0d580c39b1a75c6db50fa98330c.js": "/ReactPractice/precache-manifest.92e4b0d580c39b1a75c6db50fa98330c.js",
     "service-worker.js": "/ReactPractice/service-worker.js",
     "static/css/2.bb6c3006.chunk.css.map": "/ReactPractice/static/css/2.bb6c3006.chunk.css.map",
     "static/css/main.bed7ece2.chunk.css.map": "/ReactPractice/static/css/main.bed7ece2.chunk.css.map",
-    "static/js/2.3fcb497d.chunk.js.LICENSE.txt": "/ReactPractice/static/js/2.3fcb497d.chunk.js.LICENSE.txt",
+    "static/js/2.08ee95cf.chunk.js.LICENSE.txt": "/ReactPractice/static/js/2.08ee95cf.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/ReactPractice/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/ReactPractice/static/media/fa-solid-900.ec763292.svg",
     "static/media/logo.svg": "/ReactPractice/static/media/logo.5d5d9eef.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.608a6a0d.js",
     "static/css/2.bb6c3006.chunk.css",
-    "static/js/2.3fcb497d.chunk.js",
+    "static/js/2.08ee95cf.chunk.js",
     "static/css/main.bed7ece2.chunk.css",
-    "static/js/main.871e80be.chunk.js"
+    "static/js/main.33813ad9.chunk.js"
   ]
 }
