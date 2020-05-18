@@ -9,7 +9,7 @@ let logInCLICK = action.logInCLICK;
           return !state;
         };
         return state;
-         break; 
+ 
     case "LOG_OUT":
         if (state === true && !logInCLICK ) { 
             console.log("clicked on Log OUT");
@@ -17,11 +17,11 @@ let logInCLICK = action.logInCLICK;
         
         } ;
         return state; 
-         break;
+         
     default:
             console.log('defalt');
             return state;
-        break;
+        
       
 
   }
